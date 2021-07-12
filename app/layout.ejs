@@ -1,26 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title><%- title %></title>
+    <link rel="stylesheet" href="./assets/style/all.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title><%- title %></title>
-  <link rel="stylesheet" href="./assets/style/all.css">
-</head>
+  <body>
+    <header class="header">
+      <p>Here’s</p>
+      <h1>JOANNE</h1>
+      <p>Founder of “XXXD Official’’ & Graphic Designer</p>
+      <ul>
+        <li>
+          <a href=""></a><img src="./assets/images/behance.svg" alt="" /></a>
+        </li>
+        <li>
+          <a href=""><img src="./assets/images/facebook.svg" alt="" /></a>
+        </li>
+        <li>
+          <a href=""><img src="./assets/images/instagram.svg" alt="" /></a>
+        </li>
+        <li>
+          <a href=""><img src="./assets/images/youtube.svg" alt="" /></a>
+        </li>
+      </ul>
+    </header>
 
-<body>
-  <header class="header">
-    這是 header
-  </header>
+    <%- contents %>
 
-  <%- contents %>
-
-  <footer class="footer">
-    footer
-  </footer>
-  <script src="./assets/js/vendors.js"></script>
-  <script src="./assets/js/all.js"></script>
-</body>
-
+    <footer class="footer">footer</footer>
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+  </body>
 </html>

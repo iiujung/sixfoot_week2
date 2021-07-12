@@ -1,13 +1,20 @@
-$color: #00cc99;
+@import "reset.css";
+
+$color-prim: #707070;
+$color-secon: #000000;
+$color-link: #891818;
+$color-light: #FFFFFF;
 
 .header {
-  height: 200px;
-  background-color: #00cc99;
+  height: 958px;
+  background-image: url("./assets/images/banner.png") center center no-repeat;
 }
 
 .footer {
-  height: 200px;
-  background-color: #00cc99;
+  color: $color-light;
+  padding-top: 64px;  
+  padding-bottom: 64px;
+  background-color: $color-secon;
 }
 
 .box {
